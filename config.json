@@ -1,0 +1,109 @@
+{
+  "widget": {
+    "type": "object",
+    "props": {
+      "debug": {
+        "type": "string",
+        "userDefine": true,
+        "value": "off"
+      },
+      "window": {
+        "type": "object",
+        "props": {
+          "tittle": {
+            "type": "string",
+            "value": "Sample Konfabulator Widget"
+          },
+          "name": {
+            "type": "string",
+            "value": "main_window"
+          },
+          "width": {
+            "type": "float",
+            "value": 500.0
+          },
+          "height": {
+            "type": "float",
+            "value": 500.0
+          }
+        }
+      },
+      "image": {
+        "type": "object",
+        "props": {
+          "src": {
+            "type": "string",
+            "userDefine": true,
+            "description": "path_to_file"
+          },
+          "name": {
+            "type": "string",
+            "value": "default_name",
+            "userDefine": true
+          },
+          "hOffset": {
+            "type": "integer",
+            "value": 250
+          },
+          "vOffset": {
+            "type": "integer",
+            "value": 250
+          },
+          "alignment": {
+            "type": "string",
+            "value": "center"
+          }
+        }
+      },
+      "text": {
+        "type": "object",
+        "props": {
+          "data": {
+            "type": "string",
+            "value": "Click Here"
+          },
+          "size": {
+            "userDefine": true,
+            "type": "integer",
+            "value": 36
+          },
+          "style": {
+            "type": "string",
+            "value": "bold"
+          },
+          "name": {
+            "type": "string",
+            "value": "text1"
+          },
+          "hOffset": {
+            "userDefine": true,
+            "type": "integer",
+            "value": 250
+          },
+          "vOffset": {
+            "userDefine": true,
+            "type": "integer",
+            "value": 100
+          },
+          "alignment": {
+            "type": "string",
+            "value": "center"
+          },
+          "onMouseUp": {
+            "type": "string",
+            "value": "sun1.opacity = (sun1.opacity / 100) * 90;",
+            "description": "focus"
+          }
+        }
+      }
+    }
+  },
+  "something": {
+    "type": "boolean",
+    "value": true
+  },
+  "key_string": {
+    "type": "string",
+    "value": "GetThisShit"
+  }
+}
